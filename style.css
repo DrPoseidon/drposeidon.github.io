@@ -44,7 +44,7 @@ body{
     align-items: flex-end;/* Строки располагаются начиная снизу */
     justify-content: space-around;
     flex-direction: column;
-    padding: 40px;
+    padding: 60px;
     word-wrap: break-word; /* Перенос слов, если не хватает места в строке */
     word-break: break-all; /* Переносить в любом месте */
 }
