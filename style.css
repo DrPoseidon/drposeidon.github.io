@@ -16,8 +16,8 @@ body{
     justify-content: center;
     align-content: center;
     height: 100vh; /* vh - 1% от высоты окна браузера */
-    grid-template-columns: repeat(4,200px);/* 4 колонки по 100px */
-    grid-template-rows: minmax(200px, auto) repeat(5, 200px); /* min-значение строки = 120px, 6 строк по 100px */
+    grid-template-columns: repeat(4,1fr);/* 4 колонки по 100px */
+    grid-template-rows: minmax(200px, auto) repeat(5, 1fr); /* min-значение строки = 120px, 6 строк по 100px */
 }
 
 .calculator-grid > button{
